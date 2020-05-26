@@ -7,6 +7,6 @@ public class ChangeScene2 : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(6);
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Level2SittingRoom");
     }
 }
