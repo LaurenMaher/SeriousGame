@@ -8,6 +8,6 @@ public class ChangeSceneKitchen : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(8);
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Level4Kitchen");
     }
 }
