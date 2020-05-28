@@ -214,7 +214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
+  m_Color: {r: 1, g: 0.5773492, b: 0, a: 1}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -308,8 +308,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.45, y: 0.00000095367}
-  m_SizeDelta: {x: 547.9, y: 354.81}
+  m_AnchoredPosition: {x: 2.45, y: 0}
+  m_SizeDelta: {x: 547.9, y: 382.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1447884343
 MonoBehaviour:
@@ -330,7 +330,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 46e8c740124b3a946a34b7165ab48f75, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4b1ea906de8a9784d99094382b4b3439, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -632,7 +632,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 0c0ebe3daf0c6184eb03c9eb2d3e4f20, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 61689ef1f07cd3041856e29b2f9eeaca, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
