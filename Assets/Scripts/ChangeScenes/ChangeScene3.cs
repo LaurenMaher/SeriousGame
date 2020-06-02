@@ -7,6 +7,6 @@ public class ChangeScene3 : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(7);
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Level3Cavity");
     }
 }

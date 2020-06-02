@@ -7,6 +7,6 @@ public class Instructions : MonoBehaviour
 {
     void Start()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(4);
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Instructions");
     }
 }

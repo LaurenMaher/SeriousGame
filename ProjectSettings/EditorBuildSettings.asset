@@ -21,9 +21,6 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu/Instructions.unity
     guid: 59bfaa173f85a584e94933f6ee0e4bc1
   - enabled: 1
-    path: Assets/Scenes/Levels/GameOver.unity
-    guid: b64ecc774ed454541a4d8cb3dc117cb2
-  - enabled: 1
     path: Assets/Scenes/Levels/Level2Sittingroom.unity
     guid: aba3da31024548a4885a442b8f6eab4d
   - enabled: 1
@@ -35,6 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/Level5Upstairs.unity
     guid: d907f9ef64fbd684d8a7376a37ab611e
+  - enabled: 1
+    path: Assets/Scenes/Levels/GameOver.unity
+    guid: b64ecc774ed454541a4d8cb3dc117cb2
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000

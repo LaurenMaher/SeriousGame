@@ -7,6 +7,6 @@ public class GameOvero : MonoBehaviour
 {
     void Start()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(5);
+        UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver"); 
     }
 }

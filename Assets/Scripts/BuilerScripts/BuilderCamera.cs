@@ -16,11 +16,5 @@ public class BuilderCamera : MonoBehaviour
 
         }
     }
-    void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            customCamera.enabled = false;
-        }
-    }
+    
 }
