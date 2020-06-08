@@ -27,14 +27,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/Level3Cavity.unity
     guid: 3beefd696fb5f0c4a997e0750c2ad71e
   - enabled: 1
-    path: Assets/Scenes/Levels/LevelCavity.unity
-    guid: 35f00fbd9ca40d44195c74f2ff5cfa9a
+    path: Assets/Scenes/Levels/Level3Cavity 1.unity
+    guid: d051ede4854e1a244a7403ccab6f05ba
   - enabled: 1
     path: Assets/Scenes/Levels/Level4Kitchen.unity
     guid: e858e44cf8709214e9f9392304131fac
   - enabled: 1
-    path: Assets/Scenes/Levels/Level5Upstairs.unity
-    guid: d907f9ef64fbd684d8a7376a37ab611e
+    path: Assets/Scenes/Levels/Level5_UPStairs.unity
+    guid: 36fa2544baef21b41b4104030dece26f
   - enabled: 1
     path: Assets/Scenes/Levels/GameOver.unity
     guid: b64ecc774ed454541a4d8cb3dc117cb2
@@ -44,6 +44,12 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/Scenes/Levels/LevelCavity.unity
+    guid: 35f00fbd9ca40d44195c74f2ff5cfa9a
+  - enabled: 0
+    path: Assets/Scenes/Levels/Level5Upstairs.unity
+    guid: d907f9ef64fbd684d8a7376a37ab611e
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
