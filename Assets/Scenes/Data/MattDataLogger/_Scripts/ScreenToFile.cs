@@ -45,10 +45,10 @@ public class ScreenToFile : MonoBehaviour
 		logSender.NewUserId(userId);
 	}
 	
-	public void BUTTON_ACTION_Scene2()
+	public void BUTTON_ACTION_StartGame()
 	{
 		// Only specifying the sceneName or sceneBuildIndex will load the Scene with the Single mode
-		SceneManager.LoadScene("scene2");
+		SceneManager.LoadScene("SplashScreen");
 	}
 
 
