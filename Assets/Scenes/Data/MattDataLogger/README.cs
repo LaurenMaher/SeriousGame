@@ -9,7 +9,7 @@ public class README : MonoBehaviour {
 /*
  
 NOTE - only use a NUMBER for participant ID - so a specific human can never be identified from the logged data
-the experiment data is then anonymized which means you can do what you like with it, including publishing it
+the experiment data is then anonymised which means you can do what you like with it, including publishing it
 
 on paper, and filed safely by _you_ the experimenter, can be a reference list of participant's personal details and their allocated user ID
 
@@ -17,43 +17,55 @@ something I do sometimes, so the ID doesn't even indicate the SEQUENCE of users,
 (with no duplicate IDs of course)
 
 --------
-step 1: Create folder to store log files
-Create a folder "Logs" in your project
+(1) Each scene needs a GameObject named "logsender", which has an script component of "SendToWebLog.cs"
+
+Note - there is a prefab GameObject in the "Prefabs" folder with one of these
+- so just drag this into EACH scene where you want to do some loggin
 
 --------
-step 2: Scene with button to create new file with given User ID
+(2) Each script that wants to log something must have:
 
-- create a new scene "scene0_startExperiment"
-- save the scene, and add to the Build settings- ensure this is gthe FIRST scene in the list
+- a private variable
 
-- create a UI Input text - for entering User ID
-- add to the Text GameObject of the Input Text an instance of script ScreenToFile
+	private SendToWebLog logSender;
+	
+- the following statement in the Start() method:
 
-- create a button labelled Create New Log File with User ID
-- add to button an OnCLick handler, linked to the Text GameObject of the Input Text - that calls the method: BUTTON_ACTION_CreateTextFileWithUserId()
+	public void Start()
+	{
+		logSender = GameObject.Find("logsender").GetComponent<SendToWebLog>();
+	}
 
-to use this scene:
-- run scene
-- type in a user ID (e.g. 22)
-- click the button
 
-you should see new file crated in Logs folder 
-(note - it takes 10-20 seconds for Unity to see new file, but if you view folder contents in Windows you'll see the log file immediately)
+This ensures all methods in the scene now have access to a "logSender" object
 
 --------
-step 3: Buttons / scripts to log text messages / actions to the Log file
+(3) To log a message just write the following:
 
-anywhere in hour game you can use this line to append a new message to the log file:
+	logSender.LogLine("some string message");
 
-	string message = "user picked up a brick!";
-	AddToLogFile.LogLine( message );
+personally, I prefer to write this as 2 lines as follows, creating a string "message" variable:
+
+	String message = "user clicked the HELP button";
+	logSender.LogLine(message);
+		
+--------
+(4) To set a User ID for all messages being logged, you write the following:
+
+	logSender.NewUserId("<userIdString>");
+	
+this can be any string - but a participant number probably works best
+
 
 --------
-that's it!
+(5) To retrieve your logs - visit this website, with the email/password Matt assigns you:
 
-the log file are TEXT, with file extension ".csv" - so they should load into Excel easily for analysis / charting etc.
+https://user-logger.frb.io/log/
 
-you could take things further and log all data into a database for analysis after experiment is complete
-- I can help with that if needed ...
+You can see logs / edit them / download all as a CSV file / delete all logs
+
+
+have fun .. matt ..
+
 
 */

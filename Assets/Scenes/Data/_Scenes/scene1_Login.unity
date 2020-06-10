@@ -247,6 +247,7 @@ GameObject:
   - component: {fileID: 301488784}
   - component: {fileID: 301488783}
   - component: {fileID: 301488782}
+  - component: {fileID: 301488785}
   m_Layer: 5
   m_Name: Button-create - with userID
   m_TagString: Untagged
@@ -323,12 +324,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 301488785}
+        m_MethodName: CreateNewLogFileWithId
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -370,6 +371,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 301488780}
   m_CullTransparentMesh: 0
+--- !u!114 &301488785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 301488780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c49346067d5fc495f8f0d532a70110ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &337859622
 GameObject:
   m_ObjectHideFlags: 0
