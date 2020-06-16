@@ -15,44 +15,98 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu/MainMenu.unity
     guid: 3130156d24a71e84289ebf064f286348
   - enabled: 1
-    path: Assets/Scenes/Levels/Level1Outside_.unity
+    path: Assets/Scenes/Levels_Man/Level1Outside_.unity
     guid: 1a6578603248acf4ebf358935e07615d
   - enabled: 1
     path: Assets/Scenes/MainMenu/Instructions.unity
     guid: 59bfaa173f85a584e94933f6ee0e4bc1
   - enabled: 1
-    path: Assets/Scenes/Levels/Level2Sittingroom.unity
+    path: Assets/Scenes/Levels_Man/Level2Sittingroom.unity
     guid: aba3da31024548a4885a442b8f6eab4d
   - enabled: 1
-    path: Assets/Scenes/Levels/Level3Cavity.unity
+    path: Assets/Scenes/Levels_Man/Level3Cavity.unity
     guid: 3beefd696fb5f0c4a997e0750c2ad71e
   - enabled: 1
-    path: Assets/Scenes/Levels/Level3Cavity 1.unity
+    path: Assets/Scenes/Levels_Man/Level3Cavity 1.unity
     guid: d051ede4854e1a244a7403ccab6f05ba
   - enabled: 1
-    path: Assets/Scenes/Levels/Level4Kitchen.unity
+    path: Assets/Scenes/Levels_Man/Level4Kitchen.unity
     guid: e858e44cf8709214e9f9392304131fac
   - enabled: 1
-    path: Assets/Scenes/Levels/Level5_UPStairs.unity
+    path: Assets/Scenes/Levels_Man/Level5_UPStairs.unity
     guid: 36fa2544baef21b41b4104030dece26f
   - enabled: 1
-    path: Assets/Scenes/Levels/GameOver.unity
+    path: Assets/Scenes/Levels_Man/GameOver.unity
     guid: b64ecc774ed454541a4d8cb3dc117cb2
+  - enabled: 1
+    path: Assets/Scenes/Levels_Woman/GameOver.unity
+    guid: 77584499342610c44bf7b02c70b7772e
+  - enabled: 1
+    path: Assets/Scenes/Levels_Woman/Level1Outside_Woman.unity
+    guid: 78da91e270a77ac44bd4a2e00ad12a20
+  - enabled: 1
+    path: Assets/Scenes/Levels_Woman/Level2Sittingroom_Woman.unity
+    guid: 0de606c54d68760469b1e6dd43597aac
+  - enabled: 1
+    path: Assets/Scenes/Levels_Woman/Level3Cavity 1_Woman.unity
+    guid: 19ad791de1603e74aa4cdc5ffa4cd4d0
+  - enabled: 1
+    path: Assets/Scenes/Levels_Woman/Level3Cavity_Woman.unity
+    guid: 05f3fab4e80a9e142ae2cd67109bcab7
+  - enabled: 1
+    path: Assets/Scenes/Levels_Woman/Level4Kitchen_Woman.unity
+    guid: a53d91df69042da4a8436ce91460a266
+  - enabled: 1
+    path: Assets/Scenes/Levels_Woman/Level5_UPStairs_Woman.unity
+    guid: c350822b992d69a4a9705e72bbe612fe
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Levels_Woman2/GameOver.unity
+    guid: 0401a1f4501a0124495d91fbbe403f1f
+  - enabled: 1
+    path: Assets/Scenes/Levels_Woman2/Level1Outside_Woman2.unity
+    guid: 524abe0e1f480f64a868e99fa0286363
+  - enabled: 1
+    path: Assets/Scenes/Levels_Woman2/Level2Sittingroom_Woman2.unity
+    guid: 6f03c428c4fcd2740bcfc0cfa9621a02
+  - enabled: 1
+    path: Assets/Scenes/Levels_Woman2/Level3Cavity 1_Woman2.unity
+    guid: 1dab0bb96d2d5b44686a65d91f37bf70
+  - enabled: 1
+    path: Assets/Scenes/Levels_Woman2/Level3Cavity_Woman2.unity
+    guid: 0740f3d39b20c0e45b8f4b622315615f
+  - enabled: 1
+    path: Assets/Scenes/Levels_Woman2/Level4Kitchen_Woman2.unity
+    guid: 6745b0885c8fc8a47986d84a9d96b802
+  - enabled: 1
+    path: Assets/Scenes/Levels_Woman2/Level5_UPStairs_Woman2.unity
+    guid: c31a75607127141479d87373b80cd02a
   - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: Assets/Scenes/Levels/LevelCavity.unity
+    path: Assets/Scenes/Extra/LevelCavity.unity
     guid: 35f00fbd9ca40d44195c74f2ff5cfa9a
+  - enabled: 1
+    path: Assets/Scenes/Levels_Man2/Level1Outside_Man2.unity
+    guid: 6d02d76661d096c40a65d65b717f92fc
+  - enabled: 1
+    path: Assets/Scenes/Levels_Man2/Level2Sittingroom_Man2.unity
+    guid: 236b82362ca11e84dba012cc9196ad76
+  - enabled: 1
+    path: Assets/Scenes/Levels_Man2/Level3Cavity 1_Man2.unity
+    guid: 9282940a91c27464895aed06f8594b47
+  - enabled: 1
+    path: Assets/Scenes/Levels_Man2/Level3Cavity_Man2.unity
+    guid: 0efe91e76d811ed4eb1e61919f10798c
+  - enabled: 1
+    path: Assets/Scenes/Levels_Man2/Level4Kitchen_Man2.unity
+    guid: dbd9a8c5899887f4ea72d0217cdfec47
+  - enabled: 1
+    path: Assets/Scenes/Levels_Man2/Level5_UPStairs_Man2.unity
+    guid: c60efaf9bd54894479b113e59e83df20
   - enabled: 0
-    path: Assets/Scenes/Levels/Level5Upstairs.unity
+    path: Assets/Scenes/Extra/Level5Upstairs.unity
     guid: d907f9ef64fbd684d8a7376a37ab611e
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 0
     path: Assets/Scenes/Extra/Level3_Good_EndGame.unity
     guid: c427a21aa48941c4ebe6fa4f99f6f872
