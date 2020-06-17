@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu/MainMenu.unity
     guid: 3130156d24a71e84289ebf064f286348
   - enabled: 1
+    path: Assets/Scenes/Extra/ChoosePlayer.unity
+    guid: f4a52b1e90d3bb64aa0903be810bc6fb
+  - enabled: 1
     path: Assets/Scenes/Levels_Man/Level1Outside_.unity
     guid: 1a6578603248acf4ebf358935e07615d
   - enabled: 1
